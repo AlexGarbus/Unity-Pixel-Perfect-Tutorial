@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // Store a reference to the Rigidbody2D
+        // Get reference to Rigidbody2D
         rigidbody2d = GetComponent<Rigidbody2D>();
     }
 
