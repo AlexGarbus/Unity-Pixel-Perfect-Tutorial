@@ -21,7 +21,7 @@ public class PixelPerfectCanvasScaler : UIBehaviour
     // OnRectTransformDimensionsChange is called when an associated RectTransform has its dimensions changed.
     protected override void OnRectTransformDimensionsChange()
     {
-        if (gameObject.activeSelf)
+        if (gameObject.activeInHierarchy)
             StartCoroutine(SetScaleFactorAtEndOfFrame());
     }
 
